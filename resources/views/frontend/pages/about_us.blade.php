@@ -11,8 +11,9 @@
         <div class="container">
             <h2 class="breadcrumb-title">About Us</h2>
             <ul class="breadcrumb-menu">
-                <li><a href="{{ route('frontend.index') }}">Home</a></li>
-                <li class="active">About Us</li>
+                <li><a href="{{ route('frontend.index') }}">Home</a> </li>
+                 
+                <li class="active"> About Us</li>
             </ul>
         </div>
     </div>
@@ -25,7 +26,7 @@
                 <div class="col-lg-6">
                     <div class="about-left">
                         <div class="about-img">
-                            <img class="about-img-1" src="frontend/assets/img/about/01.jpg" alt="">
+                            <img class="about-img-1" src="{{ $abouts->about_us_image }}" alt="About Image">
                         </div>
                     </div>
                 </div>

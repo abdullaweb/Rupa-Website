@@ -3496,12 +3496,14 @@ breadcrumb css
 .site-breadcrumb .breadcrumb-menu li::before {
   position: absolute;
   content: '\f061';
+  font-family: 'Font Awesome 6 Free';
   right: -21px;
   top: 1px;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
+
 
 .site-breadcrumb .breadcrumb-menu li:first-child {
   margin-left: 0;
